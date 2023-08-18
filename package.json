@@ -1,0 +1,21 @@
+{
+  "name": "diplo-koa-video",
+  "version": "1.0.0",
+  "description": "video server in koa",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w --preserveWatchOutput",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.8",
+    "typescript": "^5.1.6"
+  }
+  
+}
